@@ -1,0 +1,2 @@
+include mocha
+set selection-clipboard clipboard
