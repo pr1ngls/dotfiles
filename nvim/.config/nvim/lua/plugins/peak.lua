@@ -27,6 +27,7 @@ return {
         throttle_time = 'auto',   -- minimum amount of time in milliseconds
         -- that has to pass before starting new render
       })
+      FIX: use lazy cmd
       vim.api.nvim_create_user_command("PeekOpen", require("peek").open, {})
       vim.api.nvim_create_user_command("PeekClose", require("peek").close, {})
     end,
