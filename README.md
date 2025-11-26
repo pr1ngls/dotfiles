@@ -1,13 +1,20 @@
 # dotfiles
 ---
-This repository contains dotfiles that i primary use nowadays with GNU/Linux via
+This repository contains minimalistic dotfiles that I primary use with GNU/Linux via
 [Arch Linux](https://archlinux.org/)
 
+## Setup
 ---
-I manage my dotfiles using [GNU stow](https://www.gnu.org/software/stow/), so after copying the 
-repository
+I manage my dotfiles using [GNU stow](https://www.gnu.org/software/stow/)
 ```
 git clone https://github.com/pr1ngls/dotfiles.git
-cd dotfiles
-git stow .
 ```
+```
+stow <package> -t $HOME
+```
+e.g. for hyprland:
+```
+stow hypr -t $HOME
+```
+
+
